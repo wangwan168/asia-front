@@ -1,0 +1,21 @@
+{
+ "hills_khaki": "#a9a671",
+ "jungle_deep_green": "#465031",
+ "desert_sand": "#d3caa6",
+ "paddy_light_green": "#a0aa70",
+ "sea_slate": "#384c5b",
+ "province_palette_note": "Base fills for owner-coloring should stay in this muted family; faction colors get applied at 55-70% opacity over the terrain base.",
+ "province_fill_candidates": [
+  "#8a8a5c",
+  "#a39a68",
+  "#7d8a66",
+  "#93a07a",
+  "#b3a67e",
+  "#86918a",
+  "#9aa27f",
+  "#afa578"
+ ],
+ "border_dark": "#2e2a20",
+ "river_pale_blue": "#9db8c4",
+ "railway": "#1f1f1f with white dashes"
+}

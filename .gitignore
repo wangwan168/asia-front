@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-electron/
+*.log
+__pycache__/
+.env
+.env.*
+*_state.json
+game/final3d.mjs
+game/shot_*.mjs
+game/smoke_*.png
+terrain3d-demo/data/
+.DS_Store

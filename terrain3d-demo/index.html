@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>亚洲战场 · 3D 地形样机</title>
+    <style>
+      html, body { margin: 0; height: 100%; overflow: hidden; background: #10161d; font-family: "Songti SC", "STSong", serif; }
+      #app { position: fixed; inset: 0; }
+      canvas { display: block; }
+      .hud { position: fixed; z-index: 10; color: #e8dcc0; background: rgba(20, 16, 11, .82); border: 1px solid #8a6d3b; border-radius: 6px; padding: 8px 12px; font-size: 13px; line-height: 1.7; }
+      #info { top: 10px; left: 10px; max-width: 340px; }
+      #info b { color: #d8c690; }
+      #picked { color: #ffe9a8; }
+      #controls { top: 10px; right: 10px; display: flex; flex-direction: column; gap: 6px; align-items: stretch; }
+      #controls button { background: #33291d; color: #ece7db; border: 1px solid #8a6d3b; border-radius: 5px; padding: 6px 10px; cursor: pointer; font: inherit; font-size: 13px; }
+      #controls button:hover { filter: brightness(1.25); }
+      #controls label { display: flex; gap: 8px; align-items: center; color: #cfc7b4; }
+      input[type="range"] { width: 130px; }
+      #labels { position: fixed; inset: 0; z-index: 5; pointer-events: none; overflow: hidden; }
+      .unit-label { position: absolute; transform: translate(-50%, -100%); background: rgba(20,16,11,.85); border: 1px solid #8a6d3b; border-radius: 4px; color: #ece2c8; font-size: 11px; line-height: 1.45; padding: 3px 7px; white-space: nowrap; }
+      .unit-label b { font-size: 12px; color: #f2e3b3; padding-left: 5px; }
+      .credit { position: fixed; bottom: 8px; left: 10px; z-index: 10; color: #7d7666; font-size: 11px; }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="labels"></div>
+    <div class="hud" id="info">
+      <b>亚洲战场 · 3D 地形可行性样机</b><br />
+      左键拖动旋转 · 滚轮缩放 · 右键拖动平移 · 点击省份高亮<br />
+      <span id="stats">加载中…</span><br />
+      <span id="picked">未选中省份</span>
+    </div>
+    <div class="hud" id="controls">
+      <button id="resetView">回正俯视</button>
+      <button id="tiltView">倾斜视角</button>
+      <button id="eastView">华东特写</button>
+      <label>地形夸张 <input type="range" id="exagg" min="0" max="3" step="0.1" value="1.4" /><span id="exaggVal">1.4×</span></label>
+    </div>
+    <div class="credit">高程：AWS Terrain Tiles (Terrarium) — SRTM/GEBCO 等公有领域数据 · 贴图：游戏现行卫星底图＋省份罩染 · 单位模型：项目自有模型库（美术线自建，步兵底模 CC0＋自建动画/涂装，详见 public/models/LICENSES.md）</div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

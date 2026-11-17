@@ -1,0 +1,1 @@
+{"devDependencies":{"@types/three":"^0.160.0","typescript":"^5.6.3","vite":"^6.0.7","vitest":"^2.1.8"},"name":"asia-front","private":true,"scripts":{"build":"tsc --noEmit && vite build","dev":"vite","preview":"vite preview","test":"vitest run"},"type":"module","version":"0.1.0","dependencies":{"three":"^0.160.0"}}

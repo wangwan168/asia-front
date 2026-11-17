@@ -1,0 +1,337 @@
+[
+ {
+  "province": "nanjing",
+  "name": "南京",
+  "cx": 548.3,
+  "cy": 348.4,
+  "faction": "中华民国国民政府",
+  "color": "#3f6fb5",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "roc",
+    "templateId": "germanTrained",
+    "label": "德械师（中央军） 1.0万",
+    "icon": "步"
+   },
+   {
+    "kind": "plane",
+    "factionId": "roc",
+    "supportKind": "fighter",
+    "label": "战斗机联队",
+    "icon": "机"
+   }
+  ]
+ },
+ {
+  "province": "beiping",
+  "name": "北平",
+  "cx": 524.7,
+  "cy": 261.9,
+  "faction": "中华民国国民政府",
+  "color": "#3f6fb5",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "roc",
+    "templateId": "infantry",
+    "label": "步兵师 1.0万",
+    "icon": "步"
+   }
+  ]
+ },
+ {
+  "province": "shanghai",
+  "name": "上海",
+  "cx": 569.1,
+  "cy": 363,
+  "faction": "中华民国国民政府",
+  "color": "#3f6fb5",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "roc",
+    "templateId": "germanTrained",
+    "label": "德械师（中央军） 1.0万",
+    "icon": "步"
+   },
+   {
+    "kind": "soldier",
+    "factionId": "japan",
+    "templateId": "marine_jp",
+    "label": "海军特别陆战队 0.6万",
+    "icon": "陆"
+   }
+  ]
+ },
+ {
+  "province": "taiyuan",
+  "name": "太原",
+  "cx": 485.6,
+  "cy": 286.9,
+  "faction": "地方军阀（合一）",
+  "color": "#8a7d3b",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "ccp",
+    "templateId": "guerrilla",
+    "label": "游击队 0.2万",
+    "icon": "游"
+   },
+   {
+    "kind": "soldier",
+    "factionId": "warlords",
+    "templateId": "infantry",
+    "label": "步兵师 1.0万",
+    "icon": "步"
+   }
+  ]
+ },
+ {
+  "province": "shijiazhuang",
+  "name": "石家庄",
+  "cx": 507.7,
+  "cy": 285.6,
+  "faction": "地方军阀（合一）",
+  "color": "#8a7d3b",
+  "items": [
+   {
+    "kind": "cavalry",
+    "factionId": "roc",
+    "templateId": "cavalry",
+    "label": "骑兵师 0.6万",
+    "icon": "骑"
+   },
+   {
+    "kind": "soldier",
+    "factionId": "ccp",
+    "templateId": "guerrilla",
+    "label": "游击队 0.2万",
+    "icon": "游"
+   }
+  ]
+ },
+ {
+  "province": "wuhan",
+  "name": "武汉",
+  "cx": 502.1,
+  "cy": 369.8,
+  "faction": "中华民国国民政府",
+  "color": "#3f6fb5",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "roc",
+    "templateId": "infantry",
+    "label": "步兵师 1.0万",
+    "icon": "步"
+   }
+  ]
+ },
+ {
+  "province": "xian",
+  "name": "西安",
+  "cx": 459.2,
+  "cy": 332.6,
+  "faction": "中华民国国民政府",
+  "color": "#3f6fb5",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "warlords",
+    "templateId": "infantry",
+    "label": "步兵师 1.0万",
+    "icon": "步"
+   }
+  ]
+ },
+ {
+  "province": "tokyo",
+  "name": "东京",
+  "cx": 736.5,
+  "cy": 307.4,
+  "faction": "大日本帝国",
+  "color": "#7a1f1f",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "japan",
+    "templateId": "infantry_jp",
+    "label": "日本步兵师团 1.0万",
+    "icon": "步"
+   },
+   {
+    "kind": "ship",
+    "factionId": "japan",
+    "supportKind": "fleet",
+    "label": "舰队",
+    "icon": "舰",
+    "anchor": [
+     741.9,
+     336.9
+    ]
+   },
+   {
+    "kind": "plane",
+    "factionId": "japan",
+    "supportKind": "fighter",
+    "label": "战斗机联队",
+    "icon": "机"
+   }
+  ]
+ },
+ {
+  "province": "osaka",
+  "name": "大阪",
+  "cx": 698.9,
+  "cy": 327.7,
+  "faction": "大日本帝国",
+  "color": "#7a1f1f",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "japan",
+    "templateId": "infantry_jp",
+    "label": "日本步兵师团 1.0万",
+    "icon": "步"
+   },
+   {
+    "kind": "plane",
+    "factionId": "japan",
+    "supportKind": "bomber",
+    "label": "轰炸机联队",
+    "icon": "轰"
+   }
+  ]
+ },
+ {
+  "province": "vladivostok",
+  "name": "海参崴",
+  "cx": 697.7,
+  "cy": 200.8,
+  "faction": "苏联",
+  "color": "#8f1d1d",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "ussr",
+    "templateId": "farEast",
+    "label": "苏军远东师 1.0万",
+    "icon": "步"
+   },
+   {
+    "kind": "plane",
+    "factionId": "ussr",
+    "supportKind": "fighter",
+    "label": "战斗机联队",
+    "icon": "机"
+   },
+   {
+    "kind": "ship",
+    "factionId": "ussr",
+    "supportKind": "fleet",
+    "label": "舰队",
+    "icon": "舰",
+    "anchor": [
+     673.9,
+     219.1
+    ]
+   }
+  ]
+ },
+ {
+  "province": "chita",
+  "name": "赤塔",
+  "cx": 512.3,
+  "cy": 114.1,
+  "faction": "苏联",
+  "color": "#8f1d1d",
+  "items": [
+   {
+    "kind": "tank",
+    "factionId": "ussr",
+    "templateId": "armor",
+    "label": "装甲师 0.8万",
+    "icon": "坦"
+   }
+  ]
+ },
+ {
+  "province": "guam",
+  "name": "关岛",
+  "cx": 782.6,
+  "cy": 557.2,
+  "faction": "美国",
+  "color": "#2e4a7a",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "usa",
+    "templateId": "marine_us",
+    "label": "美军陆战师 1.0万",
+    "icon": "陆"
+   },
+   {
+    "kind": "soldier",
+    "factionId": "usa",
+    "templateId": "garrison",
+    "label": "驻屯守备队 0.5万",
+    "icon": "守"
+   },
+   {
+    "kind": "ship",
+    "factionId": "usa",
+    "supportKind": "fleet",
+    "label": "舰队",
+    "icon": "舰",
+    "anchor": [
+     752.6,
+     557.9
+    ]
+   },
+   {
+    "kind": "plane",
+    "factionId": "usa",
+    "supportKind": "fighter",
+    "label": "战斗机联队",
+    "icon": "机"
+   }
+  ]
+ },
+ {
+  "province": "manila",
+  "name": "马尼拉",
+  "cx": 566.9,
+  "cy": 562.5,
+  "faction": "菲律宾游击力量",
+  "color": "#7a5ba6",
+  "items": [
+   {
+    "kind": "soldier",
+    "factionId": "usa",
+    "templateId": "garrison",
+    "label": "驻屯守备队 0.5万",
+    "icon": "守"
+   },
+   {
+    "kind": "soldier",
+    "factionId": "philippines",
+    "templateId": "guerrilla",
+    "label": "游击队 0.3万",
+    "icon": "游"
+   },
+   {
+    "kind": "ship",
+    "factionId": "usa",
+    "supportKind": "fleet",
+    "label": "舰队",
+    "icon": "舰",
+    "anchor": [
+     582,
+     588.4
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,79 @@
+id,name,lat,lon,cur_terrain,real_terrain,verdict,rivers,old_col,old_row,new_col,new_row,sea_links,note
+irkutsk,伊尔库茨克,52.3,104.3,plain,plain,一致,黑龙江水系(安加拉河),18,1,8,0,,西伯利亚针叶林/丘陵，无森林地形类，按 plain 口径
+chita,赤塔,52.0,113.5,plain,mountain,不一致：plain→mountain,黑龙江水系(石勒喀河),19,1,10,1,,外贝加尔山地，现 plain 标错
+khabarovsk,伯力,48.5,135.1,plain,plain,一致,黑龙江,20,1,15,2,,阿穆尔河低地
+vladivostok,海参崴,43.1,131.9,port,port,一致,,21,2,14,3,sakhalin pusan,彼得大帝湾海岸
+sakhalin,萨哈林岛,49.0,142.7,island,island,一致,,23,1,17,2,vladivostok sapporo,库页岛中段
+ulaanbaatar,乌兰巴托,47.9,106.9,plain,plain,一致,,20,3,9,2,,蒙古高原草原
+harbin,哈尔滨,45.8,126.5,city,city,一致,松花江,21,3,13,3,,松嫩平原城市
+changchun,长春（新京）,43.9,125.3,city,city,一致,松花江水系,21,4,12,3,,
+shenyang,沈阳（奉天）,41.8,123.4,city,city,一致,辽河,21,5,13,4,,
+sapporo,札幌,43.1,141.3,city,city,一致,,24,2,17,4,sakhalin tokyo,石狩平原；城本身内陆，现有 seaLinks 与 city 地形口径冲突(见审计)
+tokyo,东京,35.7,139.7,port,port,一致,,25,4,17,6,guam osaka sapporo,东京湾
+osaka,大阪,34.7,135.5,city,port,不一致：city→port,,24,5,16,6,tokyo nagasaki,大阪湾大港，现 city 应改 port
+hiroshima,广岛,34.4,132.5,city,city,一致,,23,5,15,6,,濑户内海沿岸城市(非正式军港节点)
+nagasaki,长崎,32.8,129.9,port,port,一致,,23,6,14,7,osaka pusan shanghai,
+seoul,汉城,37.6,127.0,city,city,一致,汉江,22,4,13,5,,港口功能在仁川，节点作 city 合理
+pusan,釜山,35.2,129.1,port,port,一致,,22,5,14,6,nagasaki vladivostok dalian,
+dalian,大连（关东州）,38.9,121.6,port,port,一致,,22,6,12,5,pusan tianjin qingdao,辽东半岛南端
+taipei,台北,25.0,121.6,port,port,一致,,23,12,12,9,shanghai fuzhou manila,港口功能在基隆/淡水，节点代台湾北部
+hohhot,归绥（厚和）,40.8,111.7,city,city,一致,黄河水系(大黑河),20,5,10,4,,土默川平原
+baotou,包头,40.6,109.9,plain,plain,一致,黄河,20,4,9,4,,河套北岸
+chahar,张家口（察哈尔）,40.8,114.9,mountain,mountain,一致,,21,6,11,4,,张家口，燕山/太行北段
+beiping,北平,39.9,116.4,city,city,一致,海河水系,20,6,10,3,,华北平原北端
+tianjin,天津,39.1,117.2,port,port,一致,海河,20,7,11,5,dalian,渤海湾
+shijiazhuang,石家庄,38.0,114.5,plain,plain,一致,,19,7,10,5,,华北平原
+taiyuan,太原,37.9,112.7,mountain,mountain,一致,汾河,18,7,9,5,,山西高原
+yanan,延安,36.6,109.5,mountain,mountain,一致,黄河水系(延河),18,8,8,5,,黄土高原沟壑
+jinan,济南,36.7,117.0,city,city,一致,黄河,21,8,11,6,,黄河下越南岸
+qingdao,青岛,36.1,120.4,port,port,一致,,22,8,12,6,dalian shanghai,胶州湾
+xian,西安,34.3,108.9,city,city,一致,渭河,18,9,9,6,,关中平原
+luoyang,洛阳,34.6,112.4,plain,plain,一致,黄河,19,9,10,6,,黄河南岸
+zhengzhou,郑州,34.7,113.6,plain,plain,一致,黄河,20,9,9,7,,黄河北岸(与洛阳隔河)
+xuzhou,徐州,34.3,117.2,plain,plain,一致,淮河,21,9,10,7,,淮北平原
+wuhan,武汉,30.6,114.3,city,city,一致,长江/汉江,20,10,10,8,,江汉平原，长江汉江交汇
+changsha,长沙,28.2,112.9,city,city,一致,湘江/长江水系,20,11,9,8,,洞庭湖平原南
+hengyang,衡阳,26.9,112.6,plain,plain,一致,湘江,20,12,10,9,,衡阳盆地(丘陵间盆地，plain 勉强可)
+nanchang,南昌,28.7,115.9,city,city,一致,赣江/长江水系,21,11,11,8,,鄱阳湖平原
+nanjing,南京,32.1,118.8,city,city,一致,长江,22,10,11,7,,长江南岸
+shanghai,上海,31.2,121.5,port,port,一致,长江,23,10,12,7,nagasaki qingdao taipei hangzhou,长江口
+hangzhou,杭州,30.3,120.2,port,port,一致,钱塘江,22,11,12,8,shanghai,杭州湾/钱塘江口
+fuzhou,福州,26.1,119.3,port,port,一致,闽江,22,12,11,9,taipei,闽江口
+guangzhou,广州,23.1,113.3,port,port,一致,珠江,20,13,10,10,hongkong,珠江三角洲
+hongkong,香港,22.3,114.2,port,port,一致,珠江口,21,14,11,10,guangzhou hainan manila,
+hainan,海南岛,19.9,110.0,island,island,一致,,21,15,9,11,hongkong haiphong,琼州海峡南侧
+nanning,南宁,22.8,108.4,city,city,一致,邕江/珠江水系,18,13,9,10,,
+liuzhou,柳州,24.3,109.4,plain,mountain,不一致：plain→mountain,柳江/珠江水系,19,12,9,9,,桂中喀斯特丘陵，现 plain 建议改 mountain(低优先)
+kunming,昆明,25.0,102.7,mountain,mountain,一致,珠江水系(南盘江),17,11,7,9,,云贵高原
+chongqing,重庆,29.6,106.5,mountain,mountain,一致,长江/嘉陵江,19,10,8,7,,山地城市口径：地形 mountain，城市功能由节点本身承载
+chengdu,成都,30.7,104.1,city,city,一致,岷江/长江水系,18,10,7,7,,成都平原
+guiyang,贵阳,26.6,106.7,mountain,mountain,一致,,18,11,8,9,,云贵高原东段
+lanzhou,兰州,36.1,103.8,city,city,一致,黄河,17,9,8,6,,黄河谷地
+yinchuan,银川,38.5,106.3,plain,plain,一致,黄河,17,7,7,5,,宁夏平原
+xining,西宁,36.6,101.8,mountain,mountain,一致,湟水/黄河水系,16,9,6,5,,青藏高原东缘
+urumqi,迪化（乌鲁木齐）,43.8,87.6,city,city,一致,,15,7,4,3,,天山北麓绿洲
+kashgar,喀什,39.5,76.0,desert,desert,一致,,14,7,1,5,,塔克拉玛干西缘绿洲
+lhasa,拉萨,29.7,91.1,mountain,mountain,一致,雅鲁藏布江水系,17,10,5,8,,
+hami,哈密,42.8,93.5,desert,desert,一致,,16,8,5,3,,
+delhi,德里,28.6,77.2,city,city,一致,亚穆纳河/恒河水系,16,10,2,8,,印度河-恒河平原
+calcutta,加尔各答,22.6,88.4,port,port,一致,恒河/胡格利河,15,11,4,10,rangoon,恒河三角洲
+mandalay,曼德勒,22.0,96.1,city,city,一致,伊洛瓦底江,16,11,6,10,,缅甸中央平原
+rangoon,仰光,16.8,96.2,port,port,一致,伊洛瓦底江,16,13,6,12,calcutta singapore,三角洲
+chiangmai,清迈,18.8,99.0,jungle,jungle,一致,昭披耶河水系(滨河),16,12,6,11,,泰北山地丛林
+bangkok,曼谷,13.8,100.5,port,port,一致,昭披耶河,18,14,7,13,saigon singapore,三角洲
+vientiane,万象,18.0,102.6,jungle,jungle,一致,湄公河,17,12,7,11,,湄公河东岸谷地
+hanoi,河内,21.0,105.9,city,city,一致,红河,19,13,8,11,,红河三角洲
+haiphong,海防,20.9,106.7,port,port,一致,红河,20,14,8,10,hainan hue,
+hue,顺化,16.5,107.6,port,port,一致,香江,19,14,9,12,haiphong saigon,海岸潟湖带，节点临海
+saigon,西贡,10.8,106.6,port,port,一致,湄公河/西贡河,19,15,9,14,hue bangkok singapore,湄公河三角洲
+korat,呵叻,15.0,102.1,plain,plain,一致,湄公河水系(蒙河),17,13,8,12,,呵叻高原
+kualalumpur,吉隆坡,3.1,101.7,jungle,jungle,一致,,17,15,8,16,,马来半岛内陆(非海岸)，现 jungle 正确、无 seaLinks 正确
+singapore,新加坡,1.35,103.8,port,port,一致,,18,16,8,17,rangoon bangkok saigon jakarta medan,马六甲海峡东口
+medan,棉兰（苏门答腊）,3.6,98.7,port,port,一致,,15,17,7,16,singapore jakarta,苏门答腊东海岸
+jakarta,巴达维亚（雅加达）,-6.2,106.8,port,port,一致,,16,19,8,19,singapore medan surabaya,爪哇西北海岸
+surabaya,泗水,-7.2,112.7,port,port,一致,,18,19,10,19,jakarta balikpapan,爪哇东海岸
+balikpapan,巴厘巴板（婆罗洲）,-1.2,116.8,port,port,一致,,20,18,11,18,surabaya davao,婆罗洲东海岸，望加锡海峡
+manila,马尼拉,14.6,121.0,port,port,一致,,24,13,12,12,taipei hongkong davao guam,马尼拉湾
+davao,达沃,7.1,125.6,port,port,一致,,25,15,13,15,manila balikpapan,棉兰老岛东南
+guam,关岛,13.4,144.8,island,island,一致,,30,9,17,13,manila tokyo honolulu,马里亚纳
+honolulu,檀香山,21.3,-157.8,port,port,一致,,36,7,31,11,guam,瓦胡岛(经度已 +360 归一)
